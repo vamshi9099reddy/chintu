@@ -6,6 +6,15 @@ public class Customers {
 	private String last_name;
 	private Gender gender;
 	private String email_address;
+	private int age;
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
 	private int number_of_complaints;
 	
 	public Customers() {
